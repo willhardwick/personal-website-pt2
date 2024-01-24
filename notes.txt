@@ -1,0 +1,25 @@
+!---- GITHUB ERROR ----!
+willhardwick@Wills-MacBook-Pro 2401-personal-website-pt1 % git add .
+willhardwick@Wills-MacBook-Pro 2401-personal-website-pt1 % git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   about.html
+        modified:   style.css
+
+willhardwick@Wills-MacBook-Pro 2401-personal-website-pt1 % git commit -m "home/about finished"
+[main 3aac76e] home/about finished
+ 2 files changed, 121 insertions(+), 84 deletions(-)
+willhardwick@Wills-MacBook-Pro 2401-personal-website-pt1 % git push
+To github.com:willhardwick/2401-personal-website-pt1.git
+ ! [rejected]        main -> main (fetch first)
+error: failed to push some refs to 'github.com:willhardwick/2401-personal-website-pt1.git'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+willhardwick@Wills-MacBook-Pro 2401-personal-website-pt1 %
+

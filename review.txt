@@ -1,0 +1,16 @@
+****** review notes for the future ******
+
+* Advanced CSS Selectors:
+    - media queries
+    - nth selectors
+    - hierarchical selectors
+    - !important
+
+* Advanced CSS Rules
+    - box-sizing
+    - DOM ordering
+    - z-index
+    - transitions
+    - calc
+    - common shorthands
+

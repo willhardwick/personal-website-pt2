@@ -1,0 +1,518 @@
+body {
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+/* ------------- START OF HEADER -------------- */
+nav > a {
+    font-family: monospace;
+    font-size: 1rem;
+    color: rgb(217, 234, 139);
+    margin-right: 2vw;
+    border: solid rgb(222, 222, 222) 1px;
+    border-radius: 16000px;
+    padding: 6.75px;
+}
+
+a:hover {
+    opacity: .7;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 4rem;
+    width: 100vw;
+    background-color: rgb(127, 153, 154);
+    position: fixed;
+    width: 100%;
+}
+
+header > div {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    margin-left: 2vw;
+}
+
+h1 {
+    font-family: monospace;
+    font-size: 1.5rem;
+    color: rgb(246, 246, 246);
+    border: solid rgb(222, 222, 222) 1px;
+    border-radius: 200000px;
+    padding: 9px;
+}
+
+footer {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 4rem;
+        width: 100vw;
+        background-color: rgb(127, 153, 154);
+    }
+
+/* ------------- END OF HEADER -------------- */
+/* ------------- START OF MAIN -------------- */
+main {
+    /* min-height: 100vh; */
+    /* min-width: 100vw;  */
+    display: flex;
+    background-color: slategray;
+    text-align: center;
+    vertical-align: middle;
+    align-items: center;
+    justify-content: center;
+}
+
+.image-container {
+    text-align: center;
+    margin-top: 6.5rem;
+}
+
+
+.paseo {
+    display: flex;
+    vertical-align: middle;
+    margin-right: auto;
+    margin-left: auto;
+    width: 25rem;
+    border: 2px black solid;
+}
+
+h2 {
+    margin-top: 1.33vh;
+    color: rgb(217, 234, 139);
+    font-family: monospace;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+}
+
+h3 {
+    margin-top: 1.25rem;
+    margin-bottom: -1.32rem;
+    margin-left: 1rem;
+    display: flex;
+    justify-content: center;
+    color: rgb(217, 234, 139);
+    font-family: monospace;
+    font-weight: 600;
+    font-size: 1.85rem;
+}
+
+h4 {
+    display: flex;
+    justify-content: center;
+    color: rgb(217, 234, 139);
+    font-family: monospace;
+    font-weight: 600;
+    font-size: 1.7rem;
+}
+
+h5 {
+    margin-right: -3rem;
+    margin-top: -.9rem;
+    display: flex;
+    justify-content: center;
+    color: rgb(217, 234, 139);
+    font-family: monospace;
+    font-weight: 600;
+    font-size: 1.8rem;
+}
+
+h6 {
+    margin-top: -1.5rem;
+    margin-left: 2rem;
+    display: flex;
+    justify-content: center;
+    color: rgb(217, 234, 139);
+    font-family: monospace;
+    font-weight: 600;
+    font-size: 1.85rem;
+}
+
+article {
+    display: grid;
+    row-gap: 5rem;
+    padding-bottom: 5rem;
+    padding-top: 5rem;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.pill-boxes>p:nth-child(1) {
+    font-family: monospace;
+    font-size: 1.5rem;
+    color: rgb(217, 234, 139);
+    border: solid rgb(217, 234, 139) 1px;
+    border-radius: 10000px;
+    padding: 16px;
+    margin-right: 30rem;
+}
+
+.pill-boxes>p:nth-child(2) {
+    font-family: monospace;
+    font-size: 1.5rem;
+    color: rgb(217, 234, 139);
+    border: solid rgb(217, 234, 139) 1px;
+    border-radius: 10000px;
+    padding: 16px;
+    margin-left: 10rem;
+}
+
+.pill-boxes>p:nth-child(3) {
+    font-family: monospace;
+    font-size: 1.5rem;
+    color: rgb(217, 234, 139);
+    border: solid rgb(217, 234, 139) 1px;
+    border-radius: 10000px;
+    padding: 16px;
+    margin-right: 30rem;
+}
+
+.pill-boxes>p:nth-child(4) {
+    font-family: monospace;
+    font-size: 1.5rem;
+    color: rgb(217, 234, 139);
+    border: solid rgb(217, 234, 139) 1px;
+    border-radius: 10000px;
+    padding: 16px;
+    margin-left: 10rem;
+}
+/* ------------- START OF ABOUT -------------- */
+.about-grid-container {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 40rem;
+    grid-template-rows: 27.25rem 0rem 20rem 15rem 25rem;
+    gap: 1rem;
+}
+
+.about-header {
+    font-family: monospace;
+    display: grid;
+    justify-content: center;
+    margin-bottom: 1rem;
+    font-size: 1.75rem;
+    font-weight: 600;
+    color: rgb(217, 234, 139);
+    background-color:rgba(127, 153, 154, 0.351);
+    border-radius: 2000px;
+    padding: 1rem;
+} 
+
+.about-grid-container div:nth-child(1) {
+    display: grid;
+    font-family: monospace;
+    color: rgb(217, 234, 139);
+    font-size: 1rem;
+    padding: .5rem;
+    border-radius: 2rem;
+    background-color:rgb(61, 68, 68);
+    justify-content: center;
+    margin-top: 2.5rem;
+}
+
+ /* #boring { 
+    font-size: 2rem;
+    position: relative;
+    opacity: 60%;
+    color: red;
+} */
+
+.about-grid-container div:nth-child(2) {
+    display: grid;
+    font-family: monospace;
+    font-size: 1.33rem;
+    font-weight: 500;
+    color: rgb(217, 234, 139);
+    background-color:rgba(61, 68, 68, 0.181);
+    border-radius: 2000px;
+    padding: 1rem;
+    justify-content: center;
+    margin-top: -1.5rem;
+}
+
+.sub-head {
+    font-family: monospace;
+    display: grid;
+    justify-content: center;
+    width: fit-content;
+    margin: auto;
+    margin-bottom: 1rem;
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: whitesmoke;
+    border: 1px solid rgb(217, 234, 139);
+    border-radius: 1000px;
+    padding: 1rem;
+}
+
+.about-grid-container div:nth-child(3) {
+    display: grid;
+    font-family: monospace;
+    font-size: 1.33rem;
+    font-weight: 500;
+    color: rgb(217, 234, 139);
+    border: rgb(185, 182, 185) solid 3px;
+    padding: 1rem;
+    justify-content: center;
+}
+
+.about-grid-container div:nth-child(4) {
+    display: grid;
+    font-family: monospace;
+    font-size: 1.33rem;
+    font-weight: 500;
+    color: rgb(217, 234, 139);
+    border: rgb(185, 182, 185) solid 3px;
+    padding: 1rem;
+    justify-content: center;
+}
+
+.about-grid-container div:nth-child(5) {
+    display: grid;
+    font-family: monospace;
+    font-size: 1.33rem;
+    font-weight: 500;
+    color: rgb(217, 234, 139);
+    border: rgb(185, 182, 185) solid 3px;
+    padding: 1rem;
+    justify-content: center;
+}
+
+
+/* ------------- END OF ABOUT -------------- */
+/* ------------- START OF PORTFOLIO -------------- */
+.portfolio-main {
+    display: grid;
+    background-color: slategray;
+    text-align: center;
+    vertical-align: middle;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+
+
+.portfolio-header {
+    font-family: monospace;
+    color: rgb(246, 246, 246);
+    display: grid;
+    justify-content: center;
+    margin-top: 5.5rem;
+    margin-bottom: 2rem;
+    margin-left: 1rem;
+    font-size: 2rem;
+    font-weight: 600;
+} 
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 40rem;
+    grid-template-rows: 30rem 30rem 30rem .75rem;
+    gap: 4rem;
+    align-items: center;
+
+}
+
+.grid-container div:nth-child(1) {
+    background-color: rgb(228, 240, 177);
+}
+
+.grid-container div:nth-child(2) {
+    background-color: rgb(228, 240, 177);
+    margin-bottom: 1.3rem;
+}
+
+.grid-container div:nth-child(3) {
+    background-color: rgb(228, 240, 177);
+}
+
+.port-subhead {
+    font-size: 1rem;
+    color: slategray;
+    font-weight: 600;
+    justify-content: center;
+    border: 1px slategray solid;
+    border-radius: 1600px;
+    margin: auto;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    width: fit-content;
+    padding: .5rem;
+}
+
+.pg1 {
+    display: grid;
+    font-family: monospace;
+    font-size: 1.33rem;
+    font-weight: 500;
+    color: slategray;
+    padding: 1rem;
+    justify-content: center;
+    margin-top: -1.5rem;
+}
+
+.cd {
+    border: black 1px solid;
+    border-radius: 500px;
+    width: 17.6em;
+    height: auto;
+    margin-bottom: 1.5rem;
+    justify-content: space-evenly;
+}
+
+.bye {
+    border: black 1px solid;
+    border-radius: 300px;
+    width: 15em;
+    height: auto;
+    margin-top: 1.5rem;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    margin-bottom: 1.5rem;
+    justify-content: space-evenly;
+}
+
+.pg2 {
+    display: grid;
+    font-family: monospace;
+    font-size: 1.33rem;
+    font-weight: 500;
+    color: slategray;
+    padding: 1rem;
+    justify-content: center;
+    margin-top: -1.5rem;
+}
+
+.personal {
+    border: black 1px solid;
+    width: 18.6em;
+    height: auto;
+    margin-top: 1rem;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    margin-bottom: 1rem;
+    justify-content: space-evenly;
+    border-radius: 2rem;
+}
+
+.pg3 {
+    display: grid;
+    font-family: monospace;
+    font-size: 1.33rem;
+    font-weight: 500;
+    color: slategray;
+    padding: 1rem;
+    justify-content: center;
+    margin-top: -1.5rem;
+}
+/* ------------- END OF PORTFOLIO -------------- */
+/* ------------- START OF CONTACT -------------- */
+.con-grid-container {
+    display: grid;
+    align-items: center;
+    margin-top: 6rem;
+    grid-template-columns: 40rem;
+    grid-template-rows: 8rem 7rem 8rem 1rem 40rem;
+}
+
+label {
+    font-family: monospace;
+    font-size: 1rem;
+    color: rgb(217, 234, 139)
+}
+
+input[type=text] {
+    width: 100%;
+    padding: .5rem;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-radius: 2000px;
+    border: 4px rgb(127, 153, 154) solid;
+    background-color: rgb(222, 222, 222);
+    outline: none;
+  }
+
+  input[type=email] {
+    width: 100%;
+    padding: .5rem;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-radius: 2000px;
+    border: 4px rgb(127, 153, 154) solid;
+    background-color: rgb(222, 222, 222);
+    outline: none;
+  }
+
+  input[type=message] {
+    width: 100%;
+    padding: .5rem;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-radius: 2000px;
+    border: 4px rgb(127, 153, 154) solid;
+    background-color: rgb(222, 222, 222);
+    outline: none;
+  }
+
+  button {
+    font-family: monospace;
+    font-size: 1rem;
+    color: rgb(217, 234, 139);
+    background-color: rgb(127, 153, 154);
+  }
+/* ------------- END OF CONTACT -------------- */
+/* ------------- START OF SUCCESS -------------- */
+.success-box {
+    display: grid;
+    align-items: center;
+    margin-top: auto 0;
+    grid-template-columns: 50rem;
+    grid-template-rows: 60rem;
+}
+
+.s-box {
+    background-color: rgb(127, 153, 154);
+    margin: auto;
+    width: fit-content;
+    align-items: center;
+    padding: 1rem;
+    border-radius: 1000px;
+}
+
+.s-statement {
+    font-family: monospace;
+    font-weight: 600;
+    text-decoration: underline;
+    color: rgb(217, 234, 139);
+}
+
+.s1 {
+    font-family: monospace;
+    color: rgb(217, 234, 139);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
